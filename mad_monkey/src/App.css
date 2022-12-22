@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: "JunkDog";
+    src: url("./assets/fonts/JunkDog.otf");
+  }
+  @font-face {
+    font-family: "Gilroy";
+    src: url("./assets/fonts/Gilroy.otf");
+  }
+  @font-face {
+    font-family: "Bebas Neue";
+    src: url("./assets/fonts/BebasNeue-Regular.ttf");
+  }
+
+
+*{
+    background-color: #000212;
+    color: whitesmoke;
+    z-index: 0;
+    /* margin-left: 0.6rem; */
+}
